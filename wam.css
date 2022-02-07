@@ -1,17 +1,22 @@
-.grid {
-	width: 606px;
-	height: 606px;
+body {
 	display: flex;
-	flex-wrap: wrap;
+}
+
+.grid {
+	margin: 5vw;
+	width: 500px;
+	height: 500px;
+	display: grid;
+	grid-template-columns: 25% 25% 25% 25%;
 }
 
 .square {
-	height: 200px;
-	width: 200px;
+	height: 125px;
+	width: 125px;
 	border: solid black 1px;
 }
 
 .mole {
-	background-image: url("mole.jpg");
+	background-image: url("walrus.jpg");
 	background-size: cover;
 }
